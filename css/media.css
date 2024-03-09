@@ -1,0 +1,129 @@
+@media(max-width:575px){
+
+}
+@media(min-width:576px) and (max-width:767px){
+    /* nav */
+  
+    .mainu-bg ul{
+        text-align: center !important;
+      }
+      .mainu-bg ul li{
+        padding: 10px !important;
+      }
+      #banner-one{
+       
+        
+        padding: 180px 0;
+      }
+      .main-text h1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700px;
+       
+        line-height: 62px;
+        
+    
+      }
+      
+      .main-text p{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 300px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    .main-text a{
+        margin-top: 17.66px;
+        margin-left: 196px;
+        padding: 10px 12px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    /* nav */
+    /* service */
+    .ser-head h2{
+        font-size: 36px;
+        font-weight: 600px;
+    }
+    .ser-head p{
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 26px;
+    
+    }
+    .main-one a{
+        font-size: 12px;
+        margin: 0;
+        display: none;
+        
+    }
+    .main-h1{
+     
+        font-size: 12px;
+     font-weight: 500px;
+    }
+    
+    .main-p{
+        font-size: 13px ;
+        font-weight: 200px;
+        
+        width: 100%;
+      margin-left: 0;
+        
+    }
+    /* service */
+    
+    
+    
+    /* work */
+    .work-head h1{
+        font-size: 36px;
+        font-weight: 600px;
+        
+    margin-top: 0;
+    }
+    .work-head p{
+        font-size: 14px;
+        font-weight: 200px;
+        line-height: 27px;
+       
+        
+    }
+    .tumi{
+        margin-top: 30px;
+    }
+    /* work */
+    /* exper */
+    #exper-banner{
+        padding-top: 50px;
+    }
+    
+    .expert-head h1{
+        font-size: 36px;
+        font-weight: 600px;
+        
+    
+    }
+    .expert-head p{
+        font-size: 14px;
+        font-weight: 200px;
+       margin-top: 0;
+    }
+    .men{
+        margin: 0px;
+    }
+    /* expert */
+
+
+
+
+
+
+}
+@media(min-width:768px) and (max-width:991px){
+
+}
+@media(min-width:992px) and (max-width:1199px){
+
+}
+@media(min-width:1400px)
