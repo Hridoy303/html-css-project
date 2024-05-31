@@ -19,38 +19,40 @@ img{
 }
 /* nav-start */
 .mainu-bg{
-    padding: 33px 0 !important;
+    padding: 30px 0 !important;
     position: fixed;
     width: 100%;
-    background-color: yellow;
+    background-color:black;
     
 }
 .mainu-bg ul li a{
-    color:#181818 !important;
+    color:#fff !important;
     padding: 0 25px !important;
     font-family: 'Inter', sans-serif;
     font-weight: 500px;
     font-size: 18px;
     line-height: 21.78px;
+    transition: 0.5s;
     
-    position: relative;
+
 }
-.mainu-bg ul li a::after{
-   
-   
-    
+.mainu-bg ul li a:hover{
+    color:red;
 }
+
+
 .mainu-bg ul li a.active{
-    background-color:#5956E8 !important;
+    color:rgb(255, 0, 0) !important;
   
-    position: relative;
-    padding: 5px 10px !important;
-    border-radius: 10px !important;
+  
+    
+  
+    
     
 }
 .mainu-bg ul li a.active::after{
     content: "";
-    height: 4px;
+    /* height: 4px;
     width: 4px;
     border-radius: 50%;
     bottom: 2px;
@@ -61,18 +63,19 @@ img{
    
    transition: 0.4s;
     
-   opacity: 0;
+   opacity: 0; */
     
     
 
 }
+
 
 .mainu-bg ul li a:hover::after{
     opacity: 1;
     
 }
 .mainu-bg ul a.active:hover{
-    background-color: palevioletred !important;
+    
 }
 
 
@@ -83,18 +86,21 @@ img{
 /* nav-end */
 /* agency-start */
 #banner-one{
-    background-color: #5956E8;
-    padding: 182px 0;
+    background-color: #5956e823;
+    
+    padding-top: 180px;
+    padding-bottom: 182px;
 }
 .main-text{
     margin-top: 30px;
 }
 
+
 .main-text h1{
     font-weight: 700px;
     font-size: 65px;
     line-height: 80px;
-    color: white;
+    color: rgba(0, 0, 0, 0.726);
     font-family: 'Inter', sans-serif;
 
     
@@ -105,14 +111,14 @@ img{
     font-size: 18px;
   
     line-height: 27px;
-    color: white;
+    color: black;
     margin-top: 25px;
     width: 542px;
     
 }
 .main-text a{
     padding: 13px 22px;
-    background-color: #FFFFFF;
+    background-color: white;
     border-radius: 10px;
     margin-left: 127px;
     margin-top: 44.66px;
@@ -127,9 +133,10 @@ transition: 0.5s;
 
 }
 .main-text a:hover{
-    background-color: #5956E8;
+    background-color:lightblue;
     color: white;
 }
+
 /* agency-end */
 
 
@@ -137,7 +144,9 @@ transition: 0.5s;
 #banner-two{
     padding-top: 200px;
     padding-bottom: 100px;
+
 }
+
 .ser-head h2{
     font-family: 'Inter', sans-serif;
      font-weight: 700px;
@@ -319,32 +328,32 @@ border-radius: 10px;
     padding: 100px 0;
 }
 
-.expert-head h1{
-    font-family: 'Inter', sans-serif;
+
+.title{
+    font-family: 'sans', sans-serif;
+    font-size: 1.3rem;
     font-weight: 700px;
-    font-size: 40px;
-    color: #181818;
+    font-style: italic;
+    text-align: center;
 }
-.expert-head p{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400px;
-    font-size: 16px;
-    line-height: 27px;
-    color: #181818B2;
-  
+.des{
+    text-align: center;
+    line-height: 15px;
     margin-top: 20px;
+    font-family: 'Gill sans','Gill Sans MT', Calibri,'Trebuchet MS', sans-serif;
+    font-weight: 500px;
+    
 }
-
-.two{
-    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
-
+.category,.price{
+    font-weight:700;
+    text-transform: capitalize;
+    margin: 1rem;
+    font-size: 1.2rem;
+    line-height: 17px;
+    text-align: center;
+    font-family: 'Gill sans','Gill Sans MT', Calibri,'Trebuchet MS', sans-serif;
+    
 }
-.men{
-    margin: 30px 0;
-}
-
 
 
 /* expert-end */
@@ -525,3 +534,86 @@ border-radius: 10px;
 
 
 /* latest-end */
+
+
+
+/* card-start */
+.myImages{
+    height: 250px;
+}
+/* .renderCartData{
+    height: 800px;
+    width: 300px;
+    background-color: red;
+    margin-top: 100px;
+} */
+.cartImgElement{
+    height: 40px;
+}
+
+
+.renderData{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.box-main{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 300px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+     margin-top: 20px;
+    height: 330px;
+    
+    
+
+}
+.box-main img{
+    height: 200px;
+    width: 200px;
+    padding-top: .2rem;
+    
+    
+}
+.productTitle{
+    font-size: 15px;
+margin-top: .3rem;
+line-height: 5px;
+margin-top: 20px;
+
+
+}
+.price-element{
+font-size: 13px;
+line-height: 15px;
+font-family:"poppins";
+font-weight: 600px;
+margin-top: .2rem;
+color: red;
+}
+.btn-element{
+    padding: .4em 5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: black;
+    font-family:"poppins";
+    font-weight: bold ;
+    font-size: 14px;
+    color: white;
+    
+}
+.btn-element:hover{
+    background-color:rgba(0, 0, 0, 0.705);
+}
+/* card-end */
+
+
+
+
